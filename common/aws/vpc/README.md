@@ -25,5 +25,7 @@
 | Name | Description |
 |------|-------------|
 | `vpc_id` | ID of the VPC created |
-| `public_subnets` | List of public subnet IDs |
-| `private_subnets` | List of private subnet IDs |
+| `public_subnet_ids` | List of public subnet IDs |
+| `public_subnet_cidr_blocks` | List of public CIDR blocks |
+| `private_subnet_ids` | List of private CIDR blocks |
+| `private_subnet_cidr_blocks` | List of private subnet IDs |
